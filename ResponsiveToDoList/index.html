@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Hello Everyone! , And Welcome To The Responive To Do List Tasks , You Can Add New Task Into The Responsive To Do List Tasks..." />
+        <meta name="robots" content="folloe , index" />
+        <meta name="keywords" content="Responsive To Do List Tasks , To Do , List , Tasks" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Mahmoud Khalid Shabaan Omar" />
+        <meta name="developer" content="Mahmoud Khalid Shabaan Omar" />
+        <meta charset="utf-8" />
+        <title>ResponsiveToDoListTasks...</title>
+        <link rel="icon" href="todoListAssets/todoListIcon/toDoListIcon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Ubuntu+Condensed&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="todoListAssets/styling/CSS/all.min.css" />
+        <link rel="stylesheet" href="todoListAssets/styling/CSS/bootstrap.min.css" />
+        <link rel="stylesheet" href="todoListAssets/styling/CSS/main.css" />
+        <link rel="stylesheet" href="todoListAssets/styling/CSS/mediaQuery.css" />
+    </head>
+    <body class="bg-maroon">
+        <div class="to-do-list-container bg-navy container mt-5 p-3 rounded-5 trans-sec">
+            <h1 class="main-heading bg-beige w-fit p-2 rounded-2 main-family mx-auto mb-4 text-maroon trans-sec position-relative text-uppercase">📝 our responsive to do list tasks &dArr;</h1>
+            <div class="to-do-list-inputs-container trans-sec bg-beige mx-auto p-4 rounded-3 w-75">
+                <form class="to-do-list-form-container d-flex align-items-center justify-content-between flex-wrap gap-4">
+                    <label for="inputTask" class="input-label text-capitalize position-relative sec-family bg-peach text-maroon p-2 rounded-2 position-relative text-center trans-sec">our new task &rAarr;</label>
+                    <input type="text" id="inputTask" class="input-task text-capitalize sec-family rounded-2 trans-sec p-2 text-maroon bg-peach trans-sec" placeholder="please enter our new task....." min="3" max="25" required />
+                    <button class="added-button text-capitalize position-relative rounded-3 w-75 mx-auto bg-peach text-navy trans-sec main-family" type="button" id="addedButton">add our new task</button>
+                </form>
+                <ul id="toDoListTasks" class="to-do-list-tasks bg-peach mt-4 mb-0 position-relative trans-sec py-4 rounded-3 w-50 mx-auto list-unstyled"></ul>
+            </div>
+        </div>
+        <script src="todoListAssets/manipulation/js/index.js"></script>
+    </body>
+</html>

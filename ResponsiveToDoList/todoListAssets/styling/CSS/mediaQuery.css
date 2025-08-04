@@ -1,0 +1,281 @@
+@media(max-width: 576px){
+    .to-do-list-container{
+        margin-top: 20px !important;
+        width: 90%;
+        box-shadow: 0px 0px 6px 3px var(--sky);
+        border-width: 2px;
+    }
+    .to-do-list-container:hover{
+        transform: scale(1.04);
+        box-shadow: 0px 0px 6px 3px var(--peach);
+    }
+    .to-do-list-container .main-heading{
+        font-size: 22px;
+        font-weight: 600;
+        box-shadow: 0px 0px 5px 3px var(--maroon);
+    } 
+    .to-do-list-container .main-heading:hover{
+        box-shadow: 0px 0px 5px 3px var(--beige);
+        transform: scale(1.04) rotatex(360deg)
+    }
+    .to-do-list-container .main-heading::after{
+        border-width: 3px;
+    }
+    .to-do-list-container .main-heading::before{
+        height: 5px;
+        border-width: 2px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container{
+        align-items: center !important;
+        justify-content: center !important;
+        border-width: 2px;
+        gap: 30px !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label{
+        width: 90%;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 3px !important ;
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover{
+        transform: scale(1.08)
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::after{
+        height: 7px;
+        border-width: 1.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: -1px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::before{
+        height: 2px;
+        bottom: 4px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task{
+        width: 90%; 
+        padding: 3px !important;
+        font-size: 12px;
+        font-weight: 400;
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button{
+        font-size: 24px;
+        font-weight: 700;
+        width: 90% !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button::after{
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-tasks{
+        width: 90% !important;
+    }
+       .to-do-list-container .to-do-list-inputs-container .to-do-list-tasks .task{
+        font-size: 10px !important;
+    }
+}
+@media((max-width: 768px) and (min-width: 576px)){
+    .to-do-list-container{
+        margin-top: 30px !important;
+        box-shadow: 0px 0px 6px 3px var(--sky);
+        border-width: 2px;
+    }
+    .to-do-list-container:hover{
+        transform: scale(1.04);
+        box-shadow: 0px 0px 6px 3px var(--peach);
+    }
+    .to-do-list-container .main-heading{
+        font-size: 32px;
+        font-weight: 700;
+        box-shadow: 0px 0px 5px 3px var(--maroon)
+    }
+    .to-do-list-container .main-heading:hover{
+        transform: scale(1.04) rotatex(360deg);
+        box-shadow: 0px 0px 5px 3px var(--beige);
+    }
+    .to-do-list-container .main-heading::after{
+        border-width: 5px !important;
+    }
+    .to-do-list-container .main-heading::before{
+        height: 5px;
+        border-width: 2px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container{
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label{
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 4px !important;
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover{
+        transform: scale(1.08);
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::after{
+        height: 7px;
+        border-width: 1.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: 0px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::before{
+        height: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task{
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 4px !important;
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button{
+        font-size: 24px;
+        font-weight: 700;
+        width: 90% !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button::after{
+        border-width: 2px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-tasks{
+        width: 90% !important;
+    }
+
+}
+@media((min-width: 768px) and (max-width: 992px)){
+    .to-do-list-container{
+        margin-top: 40px !important;
+        box-shadow: 0px 0px 8px 4px var(--sky);
+        border-width: 3px;
+    }
+    .to-do-list-container:hover{
+        transform: scale(1.06);
+        box-shadow: 0px 0px 8px 4px var(--peach);
+    }
+    .to-do-list-container .main-heading{
+        font-size: 36px; 
+        font-weight: 700;
+        box-shadow: 0px 0px 6px 4px var(--maroon);
+    }
+    .to-do-list-container .main-heading:hover{
+        transform: scale(1.06) rotatex(360deg);
+        box-shadow: 0px 0px 6px 4px var(--beige);
+    }
+    .to-do-list-container .main-heading::after{
+        border-width: 4px;
+    }
+    .to-do-list-container .main-heading::before{
+        height: 6px;
+        border-width: 2.5px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container{
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label{
+        font-size: 22px;
+        font-weight: 500;
+        padding: 5px !important;
+        border-width: 3px;
+        width: 80%;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::after{
+        height: 10px;
+        border-width: 3px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover::after{
+        width: 60%;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::before{
+        height: 3px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover::before{
+        width: 70%;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task{
+        font-size: 22px;
+        font-weight: 500;
+        padding: 5px !important;
+        width: 80%;
+        border-width: 3px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button{
+        font-size: 30px;
+        font-weight: 700;
+        width: 80% !important;
+        padding: 5px !important;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button::after{
+        border-width: 3px;
+    }
+}
+@media((min-width: 992px) and (max-width: 1200px)){
+    .to-do-list-container{
+        margin-top: 50px !important;
+        box-shadow: 0px 0px 8px 4px var(--sky);
+        border-width: 4px;
+    }
+    .to-do-list-container:hover{
+        transform: scale(1.06);
+        box-shadow: 0px 0px 8px 4px var(--peach);
+    }
+    .to-do-list-container .main-heading{
+        font-size: 40px;
+        font-weight: 700;
+        box-shadow: 0px 0px 6px 4px var(--maroon);
+    }
+    .to-do-list-container .main-heading:hover{
+        transform: scale(1.08) rotatex(360deg);
+        box-shadow: 0px 0px 6px 4px var(--beige);
+    }
+    .to-do-list-container .main-heading::after{
+        border-width: 4px;
+    }
+    .to-do-list-container .main-heading::before{
+        height: 6px;
+        border-width: 2.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label{
+        font-size: 24px;
+        font-weight: 600;
+        border-width: 3px;   
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::after{
+        height: 10px;
+        border-width: 3px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: 0px
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::before{
+        height: 3px;
+        bottom: 6.5px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task{
+        font-size: 24px;
+        font-weight: 600;
+        border-width: 3px;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .to-do-list-container .to-do-list-inputs-container .to-do-list-form-container  .added-button::after{
+        border-width: 4px;
+    }
+}

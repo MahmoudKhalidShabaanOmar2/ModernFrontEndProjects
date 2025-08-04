@@ -1,0 +1,258 @@
+:root{
+    --navy: #1b3c53;
+    --sky: #09c;
+    --maroon: #722323;
+    --peach: #ff9587;
+    --beige: #ffeccc;
+    --wid-fit-content: fit-content;
+    --main-font-family: "Amatic SC" , sans-serif;
+    --secondary-font-family: "ubuntu condensed" , sans-serif;
+    --trans-quarter: all 0.25s 0.25s ease;
+    --trans-half: all 0.5s 0.5 ease;
+    --trans-sec: all 1s 1s ease;
+}
+.text-navy{
+    color: var(--navy);
+}
+.bg-navy{
+    background-color: var(--navy);
+}
+.text-sky{
+    color: var(--sky);
+}
+.bg-sky{
+    background-color: var(--sky);
+}
+.text-maroon{
+    color: var(--maroon);
+}
+.bg-maroon{
+    background-color: var(--maroon);
+}
+.text-peach{
+    color: var(--peach);
+}
+.bg-peach{
+    background-color: var(--peach);
+}
+.text-beige{
+    color: var(--beige);
+}
+.bg-beige{
+    background-color: var(--beige);
+}
+.w-fit{
+    width: var(--wid-fit-content);
+}
+.main-family{
+    font-family: var(--main-font-family);
+}
+.sec-family{
+    font-family: var(--secondary-font-family);
+}
+.trans-quart{
+    transition: var(--trans-quarter);
+}
+.trans-half{
+    transition: var(--trans-half);
+}
+.trans-sec{
+    transition: var(--trans-sec);
+}
+.to-do-list-container{
+    border: solid 5px var(--peach);
+    box-shadow: 0px 0px 10px 6px var(--sky);
+}
+.to-do-list-container:hover{
+    box-shadow: 0px 0px 10px 6px var(--peach);
+    border-color: var(--maroon);
+    transform: scale(1.08);
+    background-color: var(--sky);
+}
+.to-do-list-container .main-heading{
+    font-size: 42px;
+    font-weight: 900;
+    box-shadow: 0px 0px 8px 5px var(--maroon);
+}
+.to-do-list-container .main-heading:hover{
+    color: var(--peach);
+    background-color: var(--maroon);
+    box-shadow: 0px 0px 8px 5px var(--beige);
+    transform: scale(1.1) rotatex(360deg);
+}
+.to-do-list-container .main-heading::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 100%;
+    border: solid 5px var(--peach);
+    border-radius: 6px;
+    transition: left 1.5s 1.5s ease;
+}
+.to-do-list-container .main-heading:hover::after{
+    left: 0%;
+}
+.to-do-list-container .main-heading::before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    height: 7px;
+    border: solid 3px var(--peach);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 0%;
+    transform: translate(-50% , -50%);
+    transition: width 1.5s 1.5s ease;
+}
+.to-do-list-container .main-heading:hover::before{
+    width: 90%;
+}
+.to-do-list-container .to-do-list-inputs-container{
+    border: solid 4px var(--maroon);
+    box-shadow: 0px 0px 6px 4px var(--peach);
+}
+.to-do-list-container .to-do-list-inputs-container:hover{
+    background-color: var(--maroon);
+    border-color: var(--sky);
+    transform: scale(1.06);
+    box-shadow: 0px 0px 6px 4px var(--beige);
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label{
+    font-size: 26px;
+    font-weight: 700;
+    width: 30%;
+    box-shadow: 0px 0px 5px 3px var(--sky);
+    border: solid 4px var(--beige);
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover{
+    background-color: var(--sky);
+    box-shadow: 0px 0px 5px 3px var(--peach);
+    border-color: var(--maroon);
+    color: var(--navy);
+    transform: scale(1.05) rotatex(360deg);
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    height: 12px;
+    border: solid 3px var(--maroon);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 0%;
+    transform: translate(-50% , -50%);
+    transition: width 1.5s 1.5s ease;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover::after{
+    width: 70%;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label::before{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    height: 4.5px;
+    background-color: var(--peach);
+    width: 0%;
+    transform: translate(-50% , -50%);
+    transition: width 1.5s 1.5s ease;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-label:hover::before{
+    width: 90%;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task{
+    font-size: 26px;
+    font-weight: 500;
+    width: 65%;
+    box-shadow: 0px 0px 8px 4px var(--sky);
+    border: solid 4px var(--beige);
+    outline: none;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .input-task:focus{
+    background-color: var(--sky);
+    transform: scale(1.05) rotatex(360deg);
+    border-color: var(--peach);
+    box-shadow: 0px 0px 8px 4px var(--beige)
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button{
+    font-size: 32px;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 7px 4px var(--sky);
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button:focus{
+    transform: scale(1.06) rotatex(360deg);
+    background-color: var(--sky);
+    box-shadow: 0px 0px 7px 4px var(--peach);
+    color: var(--maroon)
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 100%;
+    border: solid 4px var(--maroon);
+    border-radius: 8px;
+    transition: left 1.5s 1.5s ease;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-form-container .added-button:focus::before{
+    left: 0%;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks{
+    box-shadow: 0px 0px 5px 3px #09c;
+    display: none;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks:hover{
+    box-shadow: 0px 0px 5px 3px #ff9587;
+    background-color: #09c;
+    transform: scale(1.1) rotatex(360deg);
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks::before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    right: 20%;
+    border: solid 4px #722323 !important;
+    border-radius: 9px;
+    transition: top 2s 2s ease , right 2s 2s ease , bottom 2s 2s ease , left 2s 2s ease;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks:hover::before{
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: -99999;
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks .task{
+    border: solid 2px var(--sky);
+    padding: 5px;
+    box-shadow: 0px 0px 5px 2px var(--navy);
+    border-radius: 5px;
+    width: 75%;
+    margin: auto;
+    background-color: var(--beige);
+    color: var(--sky);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--secondary-font-family);
+    text-transform: capitalize !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: var(--trans-sec);
+
+}
+.to-do-list-container .to-do-list-inputs-container .to-do-list-tasks .task:hover{
+    background-color: var(--navy);
+    box-shadow: 0px 0px 5px 2px var(--peach);
+    color: var(--maroon);
+    transform: scale(1.02) rotatex(360deg);
+}
