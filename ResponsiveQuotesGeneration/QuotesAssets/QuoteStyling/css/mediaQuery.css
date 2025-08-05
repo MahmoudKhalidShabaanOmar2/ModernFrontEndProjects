@@ -1,6 +1,6 @@
 @media((max-width: 576px)){
     .quotes-generation-container{
-        width: 93% !important;
+        width: 90% !important;
         box-shadow: 0px 0px 4px 2px #fff
     }
     .quotes-generation-container:hover{
@@ -273,4 +273,5 @@
     }
 
 }
+
 
