@@ -42,7 +42,7 @@
     }
     .quotes-generation-container .generation-button::after{
         height: 2px;
-        bottom: 0px;
+        bottom: 9px;
     }
     .quotes-generation-container .generation-button::before{
         height: 10px;
@@ -273,6 +273,7 @@
     }
 
 }
+
 
 
 
