@@ -1,0 +1,174 @@
+:root{
+    --main-font-family: "Winky Rough" , sans-serif;
+    --wid-fit-content: fit-content;
+    --transition-sec: all 1s 1s ease;
+}
+.main-family{
+    font-family: var(--main-font-family);
+}
+.w-fit{
+    width: var(--wid-fit-content);
+}
+.trans-s{
+    transition: var(--transition-sec);
+}
+.quotes-generation-container{
+    box-shadow: 0px 0px 8px 6px #fff;
+}
+.quotes-generation-container:hover{
+    box-shadow: 0px 0px 8px 6px #000;
+    background-color: darkblue !important; 
+    transform: scale(1.08);
+}
+.quotes-generation-container::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 100%;
+    border: solid 5px #000;
+    border-radius: 10px;
+    transition: left 2s 2s ease , border-color 2s 2s ease;
+}
+.quotes-generation-container:hover::before{
+    left: 0%;
+    border-color: #fff;
+}
+.quotes-generation-container .main-heading{
+    font-size: 30px;
+    font-weight: 900;
+    box-shadow: 0px 0px 6px 4px #fff;
+}
+.quotes-generation-container .main-heading:hover{
+    background-color: #000 !important;
+    color: #f00755 !important;
+    box-shadow: 0px 0px 6px 4px #f00755;
+    transform: scale(1.07) rotatex(360deg);
+}
+.quotes-generation-container .main-heading::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+    border: solid 4px #fff;
+    border-radius: 6px;
+    transition: top 2s 2s ease , right 2s 2s ease , bottom 2s 2s ease , left 2s 2s ease;
+}
+.quotes-generation-container .main-heading:hover::after{
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.quotes-generation-container .main-heading::before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 8px;
+    border: solid 3px #fff;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    width: 0%;
+    transition: width 2s 2s ease;
+}
+.quotes-generation-container .main-heading:hover::before{
+    width: 90%;
+}
+.quotes-generation-container .generation-button{
+    font-size: 26px;
+    font-weight: 900;
+    box-shadow: 0px 0px 6px 4px #fff;
+}
+.quotes-generation-container .generation-button:focus{
+    background-color: #000 !important;
+    box-shadow: 0px 0px 6px 4px #f00755;
+    color: #f00755 !important;
+    transform: scale(1.1) rotatex(360deg);
+}
+.quotes-generation-container .generation-button::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 0%;
+    height: 15px;
+    border: solid 3px #f00755;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    transition: width 2s 2s ease;
+}
+.quotes-generation-container .generation-button:focus::before{
+    width: 90%;
+}
+.quotes-generation-container .generation-button::after{
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    height: 4px;
+    width: 0%;
+    background-color: #fff;
+    transform: translate(-50% , -50%);
+    transition: width 2s 2s ease;
+}
+.quotes-generation-container .generation-button:focus::after{
+    width: 70%;
+}
+.quotes-generation-container .quote-container{
+    box-shadow: 0px 0px 6px 4px #fff;
+    display: none;
+}
+.quotes-generation-container .quote-container:hover{
+    box-shadow: 0px 0px 6px 4px #09c;
+    background-color: #f00755 !important;
+    transform: scale(1.05);
+}
+.quotes-generation-container .quote-container::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 99.5%;
+    border: solid 4px #000;
+    border-radius: 8px;
+    transition: left 2s 2s ease , border-color 2s 2s ease;
+}
+.quotes-generation-container .quote-container:hover::before{
+    left: 0%;
+    border-color: #000;
+}
+.quotes-generation-container .quote-container .quote-data{
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0px 0px 3px 2px #fff;
+}
+.quotes-generation-container .quote-container .quote-data:hover{
+    transform: scale(1.05) rotatex(360deg);
+    box-shadow: 0px 0px 3px 2px #09c;
+    background-color: #f5f5f5 !important;
+    color: #000 !important;
+}
+.quotes-generation-container .quote-container .quote-data::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+    border: solid 3px #000;
+    border-radius: 6px;
+    transition: top 2s 2s ease , left 2s 2s ease , right 2s 2s ease , bottom 2s 2s ease;
+}
+.quotes-generation-container .quote-container .quote-data:hover::after{
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
