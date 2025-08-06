@@ -1,0 +1,223 @@
+:root{
+    --main-font-family: "Winky Sans" , sans-serif;
+    --wid-fit-content: fit-content;
+    --wid-22: 22%;
+    --trans-sec: all 1s 1s ease;
+    --trans-half-sec: all 0.5s 0.5s ease;
+    --trans-quarter-sec: all 0.25s 0.25s ease;
+    --color-rose-red: #ea5b6f;
+    --color-soft-tangerine: #ff894f;
+    --color-golden-yellow: #ffcb61;
+    --color-sky: #77bef0;
+    --color-navy: #051d51;
+    --wid-90: 90%;
+}
+.main-family{
+    font-family: var(--main-font-family);
+}
+.w-fit{
+    width: var(--wid-fit-content);
+}
+.w-22{
+    width: var(--wid-22);
+}
+.trans-s{
+    transition: var(--trans-sec);
+}
+.trans-h-s{
+    transition: var(--trans-half-sec);
+}
+.trans-q-s{
+    transition: var(--trans-quarter-sec);
+}
+.text-rose-red{
+    color: var(--color-rose-red);
+}
+.bg-rose-red{
+    background-color: var(--color-rose-red)
+}
+.text-soft-tangerine{
+    color: var(--color-soft-tangerine);
+}
+.bg-soft-tangerine{
+    background-color: var(--color-soft-tangerine);
+}
+.text-golden-yellow{
+    color: var(--color-golden-yellow);
+}
+.bg-golden-yellow{
+    background-color: var(--color-golden-yellow);
+}
+.text-sky{
+    color: var(--color-sky);
+}
+.bg-sky{
+    background-color: var(--color-sky);
+}
+.text-navy{
+    color: var(--color-navy);
+}
+.bg-navy{
+    background-color: var(--color-navy);
+}
+.w-90{
+    width: var(--wid-90);
+}
+*{
+    padding: 0px !important;
+    box-sizing: border-box;
+}
+.registeration-container{
+    box-shadow: 0px 0px 10px 7px var(--color-golden-yellow);
+    border: solid 5px transparent;
+}
+.registeration-container:hover{
+    transform: scale(1.08);
+    background-color: var(--color-sky);
+    box-shadow: 0px 0px 10px 7px var(--color-soft-tangerine);
+    border-color: var(--color-navy);
+}
+.registeration-container .main-heading{
+    font-size: 32px;
+    font-weight: 800;
+    box-shadow: 0px 0px 6px 4px var(--color-navy)
+}
+.registeration-container .main-heading:hover{
+    box-shadow: 0px 0px 6px 4px var(--color-golden-yellow);
+    background-color: var(--color-rose-red);
+    transform: scale(1.12) rotatex(360deg);
+}
+.registeration-container .main-heading::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    bottom: 0%;
+    left: 0%;
+    border: solid 4px var(--color-sky);
+    border-radius: 8px;
+    transition: right 1.5s 1.5s ease , border-color 2s 2s ease;
+}
+.registeration-container .main-heading:hover::after{
+    right: 0%;
+    border-color: var(--color-navy);
+}
+.registeration-container .main-heading::before{
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 0%;
+    height: 10px;
+    border: solid 3.5px var(--color-navy);
+    border-right-width: 0px;
+    border-left-width: 0px;
+    transition: width 1.5s 1.5s ease;
+}
+.registeration-container .main-heading:hover::before{
+    width: 90%;
+}
+.registeration-container .simple-registeration-user-form-container{
+    box-shadow: 0px 0px 7px 5px var(--color-navy);
+    border: solid 5px var(--color-sky)
+}
+.registeration-container .simple-registeration-user-form-container:hover{
+    border-color: var(--color-soft-tangerine);
+    background-color: var(--color-navy);
+    box-shadow: 0px 0px 7px 5px var(--color-rose-red);
+    transform: scale(1.02);
+}
+.registeration-container .simple-registeration-user-form-container .input-data{
+    font-size: 22px;
+    font-weight: 700;
+    outline: none;
+    border: solid 3px transparent !important;
+    box-shadow: 0px 0px 5px 2px var(--color-rose-red);
+}
+.registeration-container .simple-registeration-user-form-container .input-data:focus{
+    transform: scale(1.08) rotatex(360deg);
+    border-color: var(--color-rose-red) !important;
+    background-color: var(--color-golden-yellow) ;
+    color: var(--color-rose-red);
+    box-shadow: 0px 0px 5px 2px var(--color-sky);
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button{
+    font-size: 26px;
+    font-weight: 900;
+    box-shadow: 0px 0px 7px 5px var(--color-sky);
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button:focus{
+    transform: scale(1.08) rotatex(360deg);
+    box-shadow: 0px 0px 7px 5px var(--color-rose-red);
+    background-color: var(--color-sky);
+    color: var(--color-rose-red);
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    bottom: 0%;
+    left: 0%;
+    border: solid 4px var(--color-navy);
+    border-radius: 8px;
+    transition: right 1.5s 1.5s ease , border-color 2s 2s ease;
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button:focus::after{
+    right: 0%;
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button::before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 6px;
+    border: solid var(--color-navy) 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    width: 0%;
+    transition: width 1.5s 1.5s ease;
+}
+.registeration-container .simple-registeration-user-form-container .registeration-button:focus::before{
+    width: 50%;
+}
+.registeration-user-data-container{
+    box-shadow: 0px 0px 8px 5px var(--color-sky);
+    border: 5px transparent solid;
+    display: none;
+}
+.registeration-user-data-container:hover{
+    box-shadow: 0px 0px 8px 5px var(--color-soft-tangerine);
+    background-color: var(--color-sky);
+    transform: scale(1.04);
+    border-color: var(--color-navy)
+}
+.registeration-user-data-container .registeration-input-data{
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 0px 0px 4px 2px var(--color-navy);
+}
+.registeration-user-data-container .registeration-input-data:hover{
+    background-color: var(--color-navy);
+    color: var(--color-sky);
+    box-shadow: 0px 0px 4px 2px var(--color-rose-red);
+    transform: scale(1.1) rotatex(360deg);
+}
+.registeration-user-data-container .registeration-input-data::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    bottom: 0%;
+    left: 96%;
+    border: solid var(--color-navy);
+    border-radius: 7px;
+    transition: right 2s 2s ease , left 2s 2s ease;
+}
+.registeration-user-data-container .registeration-input-data:hover::after{
+    right: 0%;
+    left: 0%;
+    border-color: var(--color-sky);
+}

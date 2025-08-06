@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+        <meta name="description" content="Hello Everyone! , And Welcome To The Responsive Simple User Registeration User Form , Please Full Different User Data To Register Now....." />
+        <meta name="keywords" content="Responsive Simple User Registeration Form , Simple , User , Registeration , Form" />
+        <meta name="robots" content="follow , index" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Mahmoud Khalid Shabaan Omar" />
+        <meta name="developer" content="Mahmoud Khalid Shabaan Omar" />
+        <meta charset="utf-8" />
+        <title>ResponsiveSimpleUserRegisterationForm</title>
+        <link rel="icon" href="registerationFormAssets/registerationIcon/simpleUserRegisterationFormIcon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="registerationFormAssets/styling/css/all.min.css" />
+        <link rel="stylesheet" href="registerationFormAssets/styling/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="registerationFormAssets/styling/css/main.css" />
+        <link rel="stylesheet" href="registerationFormAssets/styling/css/mediaQuery.css" />
+    </head>
+    <body class="bg-navy p-0 m-0">
+        <div class="registeration-container bg-rose-red container my-5 rounded-5 p-4 trans-h-s">
+            <h1 class="main-heading text-capitalize bg-soft-tangerine w-fit main-family p-3 mx-auto mb-5 rounded-3 text-navy trans-s position-relative"><i class="fa-solid fa-user"></i> simple user registeration form. &dArr;</h1>
+            <form class="simple-registeration-user-form-container d-flex flex-wrap align-content-center justify-content-between gap-4 bg-golden-yellow p-3 rounded-5 trans-s">
+                <input type="text" id ="fristUserName" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="frist name" minlength="3" maxlength="12" name="fristUserName"/>
+                <input type="text" id="secondUserName" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="second name" minlength="3" maxlength="12" name="secondUserName" />
+                <input type="text" id="lastUserName" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="last name" minlength="3" maxlength="12" name="lastUserName" />
+                <input type="email" id="userEmail" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user email" minlength="12" maxlength="32" name="userEmail" required/>
+                <input type="email" id="userReEmail" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user re email" minlength="12" maxlength="32" name="userReEmail" required/>
+                <input type="text" id="userGender" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user gender" minlength="4" maxlength="6" name="userGender" />
+                <input type="number" id="userAge" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user age" min="20" max="50" name="userAge" />
+                <input type="date" id="userBirthDate" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user birth date" min="1975-01-01" max="2025-01-01" name="userBirthDate" />
+                <input type="number" id="userSalary" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user salary" min="10000" max="100000" name="userSalary" />
+                <input type="password" id="userPassword" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-22 rounded-2" placeholder="user password" min="8" max="32" name="userPassword" required />
+                <input type="password" id="userRePassword" class="input-data text-capitalize text-navy bg-soft-tangerine border border-0 p-1 main-famiy trans-h-s w-25 rounded-2" placeholder="user re password" min="6" max="32" name="userRePassword" required />
+                <button type="button" class="registeration-button w-50 border border-0 text-capitalize bg-rose-red trans-s position-relative text-navy rounded-3 p-2 mx-auto" id ="registerationButton">register now.<i class="fa-solid fa-add"></i></button>
+            </form>
+        </div>
+        <div class="registeration-user-data-container  align-items-center justify-content-between bg-rose-red w-90 mx-auto rounded-5 p-4 mb-5 trans-s flex-wrap align-items-center gap-3 justify-content-between" id="registerationUserDataContainer">
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="fUserNameData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="sUserNameData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="lUserNameData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uEmailData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uReEmailData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uGenderData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uAgeData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uBirthDateData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uSalaryData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uPasswordData"></p>
+            <p class="registeration-input-data main-family text-capitalize mb-2 p-1 position-relative trans-s bg-soft-tangerine w-22 rounded-2 text-navy" id="uRePasswordData"></p>
+        </div>
+        <script src="registerationFormAssets/manipulation/js/index.js"></script>
+    </body>
+</html>

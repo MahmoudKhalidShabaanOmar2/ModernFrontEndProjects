@@ -1,0 +1,290 @@
+@media(max-width: 576px){
+    .registeration-container{
+        width: 90%;
+        border-width: 3px;
+        box-shadow: 0px 0px 5px 3px var(--color-golden-yellow);
+    }
+    .registeration-container:hover{
+        transform: scale(1.04);
+        box-shadow: 0px 0px 5px 3px var(--color-soft-tangerine);
+    }
+    .registeration-container .main-heading{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .registeration-container .main-heading:hover{
+        transform: scale(1.04) rotatex(360deg);
+    }
+    .registeration-container .main-heading::after{
+        border-width: 2px;
+    }
+    .registeration-container .main-heading::before{
+        height: 6px;
+        border-width: 2px;
+        bottom: 7px;
+        border-right-width: 0px;
+        border-left-width: 0px
+    }
+    .registeration-container .simple-registeration-user-form-container{
+        box-shadow: 0px 0px 3px 2px var(--color-navy);
+        border-width: 2px;
+        justify-content: center !important;
+        gap: 15px !important;
+    }
+    .registeration-container .simple-registeration-user-form-container:hover{
+        box-shadow: 0px 0px 3px 2px var(--color-rose-red);
+        transform: scale(1.06)
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data{
+        width: 90% !important;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+        padding: 3px !important;
+        box-shadow: 0px 0px 3px 1px var(--color-rose-red);
+        border-width: 1.5px;
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data:focus{
+        transform: scale(1.02) rotatex(360deg);
+        box-shadow: 0px 0px 3px 1px var(--color-sky)
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button{
+        width: 90% !important;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 15px !important;
+        box-shadow: 0px 0px 3px 2px var(--color-sky);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button:focus{
+        box-shadow: 0px 0px 3px 2px var(--color-rose-red);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button::after{
+        border-width: 2px;
+    }
+    .registeration-user-data-container{
+        width: 80% !important;
+        border-width: 3px;
+        box-shadow: 0px 0px 4px 3px var(--color-sky);
+        gap: 5px !important;
+    }
+    .registeration-user-data-container:hover{
+        box-shadow: 0px 0px 4px 3px var(--color-soft-tangerine) ;
+        transform: scale(1.04)
+    }
+    .registeration-user-data-container .registeration-input-data{
+        font-size: 10px;
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+        box-shadow: 0px 0px 2px 1px var(--color-navy);
+    }
+}
+@media((min-width: 576px) and (max-width: 768px)){
+    .registeration-container{
+        border-width: 3px;
+        box-shadow: 0px 0px 5px 3px var(--color-golden-yellow);
+    }
+    .registeration-container:hover{
+        box-shadow: 0px 0px 5px 3px var(--color-soft-tangerine);
+        transform: scale(1.02)
+    }
+    .registeration-container .main-heading{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .registeration-container .main-heading:hover{
+        transform: scale(1.04) rotatex(360deg);
+    }
+    .registeration-container .main-heading::after{
+        border-width: 2px;
+    }
+    .registeration-container .main-heading::before{
+        height: 7px;
+        border-width: 2.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: 5px;
+    }
+    .registeration-container .simple-registeration-user-form-container{
+        box-shadow: 0px 0px 3px 2px var(--color-navy);
+        border-width: 2px;
+    }
+    .registeration-container .simple-registeration-user-form-container:hover{
+        box-shadow: 0px 0px 3px 2px var(--color-rose-red);
+        transform: scale(1.04);
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data{
+        font-size: 17px;
+        font-weight: 500;
+        width: 45% ;
+        box-shadow: 0px 0px 3px 1px var(--color-rose-red);
+        border-width: 1.5px;
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data:focus{
+        box-shadow: 0px 0px 3px 1px var(--color-sky);
+        transform: scale(1.04) rotatex(360deg);
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data[type="password"]{
+        width: 45% !important;
+        margin: auto;
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button{
+        font-size: 20px;
+        font-weight: 500;
+        width: 90% !important;
+        box-shadow: 0px 0px 3px 2px var(--color-sky);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button:focus{
+        box-shadow: 0px 0px 3px 2px var(--color-rose-red);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button::after{
+        border-width: 2px;
+    }
+    .registeration-user-data-container{
+        width: 80%;
+        margin: auto;
+        box-shadow: 0px 0px 4px 3px var(--color-sky);
+        border-width: 3px;
+    }
+    .registeration-user-data-container .registeration-input-data{
+        font-size: 18px;
+        font-weight: 400;
+        width: 48%;
+    }
+    .registeration-user-data-container .registeration-input-data[id="uRePasswordData"]{
+        width: 60%;
+        margin: auto 
+    }
+}
+@media((min-width: 768px) and (max-width: 992px)){
+    .registeration-container{
+        border-width: 4px;
+        box-shadow: 0px 0px 8px 6px var(--color-golden-yellow);
+        width: 90% !important;
+    }
+    .registeration-container:hover{
+        transform: scale(1.04);
+        box-shadow: 0px 0px 8px 6px var(--color-soft-tangerine);
+    }
+    .registeration-container .main-heading{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .registeration-container .main-heading:hover{
+        transform: scale(1.06) rotatex(360deg);
+    }
+    .registeration-container .main-heading::after{
+        border-width: 3px;
+    }
+    .registeration-container .main-heading::before{
+        height: 8px;
+        border-width: 3px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        bottom: 3px;
+    }
+    .registeration-container .simple-registeration-user-form-container{
+        box-shadow: 0px 0px 5px 3px var(--color-navy);
+        border-width: 3px
+    }
+    .registeration-container .simple-registeration-user-form-container:hover{
+        transform: scale(1.04);
+        box-shadow: 0px 0px 5px 3px var(--color-rose-red);
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data{
+        font-size: 20px;
+        font-weight: 500;
+        width: 30% !important;
+        border-width: 2px
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data[type="password"]{
+        width: 45% !important;
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button{
+        width: 50% !important;
+        font-size: 22px;
+        font-weight: 700;
+        box-shadow: 0px 0px 5px 3px var(--color-sky);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button:focus{
+        box-shadow: 0px 0px 5px 3px var(--color-rose-red);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button::after{
+        border-width: 3px;
+    }
+    .registeration-user-data-container{
+        box-shadow: 0px 0px 6px 4px var(--color-sky);
+        border-width: 4px;
+    }
+    .registeration-user-data-container .registeration-input-data{
+        font-size: 20px;
+        font-weight: 600;
+        width: 31.5% !important;
+    }
+    .registeration-user-data-container .registeration-input-data[id="uPasswordData"] , .registeration-user-data-container .registeration-input-data[id="uRePasswordData"]{
+        width: 47% !important;
+    }
+}
+@media((min-width: 992px) and (max-width: 1200px)){
+    .registeration-container{
+        border-width: 4px;
+        box-shadow: 0px 0px 8px 6px var(--color-golden-yellow);
+        width: 90%;
+    }
+    .registeration-container:hover{
+        box-shadow: 0px 0px 8px 6px var(--color-soft-tangerine);
+        transform: scale(1.04);
+    }
+    .registeration-container .main-heading{
+        font-size: 29px;
+        font-weight: 700;
+    }
+    .registeration-container .main-heading:hover{
+        transform: scale(1.08) rotatex(360deg);
+    }
+    .registeration-container .main-heading::after{
+        border-width: 3px;
+    }
+    .registeration-container .main-heading::before{
+        height: 9px;
+        border-width: 3.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .registeration-container .simple-registeration-user-form-container{
+        border-width: 3px;
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data{
+        font-size: 22px;
+        font-weight: 600;
+        width: 22.5%;
+        border-width: 2px;
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button{
+        font-size: 24px;
+        font-weight: 700; 
+        width: 50% !important;
+        box-shadow: 0px 0px 5px 3px var(--color-sky);
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button:focus{
+        box-shadow: 0px 0px 5px 3px var(--color-rose-red);
+    }
+    .registeration-container .simple-registeration-user-form-container .input-data[placeholder="user salary"] , .registeration-container .simple-registeration-user-form-container .input-data[type="password"]{
+        width: 30% !important;
+    }
+    .registeration-container .simple-registeration-user-form-container .registeration-button::after{
+        border-width: 3px;
+    }
+    .registeration-user-data-contaoiner{
+        box-shadow: 0px 0px 6px 4px var(--color-sky);
+        border-width: 4px;
+    }
+    .registeration-user-data-container .registeration-input-data{
+        font-size: 16px;
+        font-weight: 600;
+        width: 23% !important
+    }
+    .registeration-user-data-container .registeration-input-data[id="uPasswordData"] , .registeration-user-data-container .registeration-input-data[id="uRePasswordData"] , .registeration-user-data-container .registeration-input-data[id="uSalaryData"]{
+        width: 31% !important;
+    }
+}
