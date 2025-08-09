@@ -6,7 +6,7 @@
     --color-light-blue: #63C8FF;
     --main-font-family: "Oswald" , sans-serif;
     --wid-fit: fit-content;
-    --wid-8: 10%;
+    --wid-10: 10%;
     --transition-second: all 1s 1s ease;
 }
 *{
@@ -48,8 +48,8 @@
 .w-fit{
     width: var(--wid-fit);
 }
-.w-8{
-    width: var(--wid-8);
+.w-10{
+    width: var(--wid-10);
 }
 .trans-sec{
     transition: var(--transition-second);
@@ -249,3 +249,4 @@
     transform: scale(1.1) rotatex(360deg);
 
 }
+
