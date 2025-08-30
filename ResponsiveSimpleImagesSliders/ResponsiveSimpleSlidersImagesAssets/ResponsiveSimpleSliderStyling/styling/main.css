@@ -204,8 +204,8 @@
     transition: width 2s 2s ease , height 2s 2s ease;
 }
 .main-responsive-slider-container .main-slider-content-container .secondary-slider-description:hover::before{
-    height: 145px;
-    width: 145px;
+    height: 100px;
+    width: 100px;
 }
 .main-responsive-slider-container .main-slider-content-container .secondary-slider-description::after{
     content: "";
@@ -294,4 +294,5 @@
     color: #e70a66 !important;
     border-color: #006 !important;
     box-shadow: 0px 0px 4px 4px #e70a66;
+
 }
