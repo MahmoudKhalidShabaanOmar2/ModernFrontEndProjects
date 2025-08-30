@@ -96,3 +96,14 @@ nextSlideButton.addEventListener("click" , displayingNextSlideImage);
 previousSlideButton.addEventListener("click" , displayingPreviousSlideImage);
 closeSlideButton.addEventListener("click" , closeSlideImage);
 getSliderButton.addEventListener("click" , gettingMainSliderImages);
+document.addEventListener("keydown" , function(event){
+    if(event.key == "ArrowRight"){
+        displayingNextSlideImage();
+    }
+    else if(event.key == "ArrowLeft"){
+        displayingPreviousSlideImage();
+    }
+    else if(event.key == "Escape"){
+        closeSlideImage();
+    }
+});
