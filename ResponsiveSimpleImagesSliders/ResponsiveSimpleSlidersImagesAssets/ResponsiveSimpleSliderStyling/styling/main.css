@@ -204,8 +204,8 @@
     transition: width 2s 2s ease , height 2s 2s ease;
 }
 .main-responsive-slider-container .main-slider-content-container .secondary-slider-description:hover::before{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 .main-responsive-slider-container .main-slider-content-container .secondary-slider-description::after{
     content: "";
@@ -296,4 +296,5 @@
     box-shadow: 0px 0px 4px 4px #e70a66;
 
 }
+
 
