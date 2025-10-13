@@ -1,0 +1,300 @@
+@media(max-width: 440px){
+    .main-responsive-content-container{
+        padding: 8px !important;
+        box-shadow: 0px 0px 3px 2px var(--color-light-blue);
+        width: 90% !important;
+        border-width: 2px !important;
+    }
+    .main-responsive-content-container:hover{
+        box-shadow: 0px 0px 3px 2px var(--color-light-yellow);
+        transform: scale(1.04);
+    }
+    .main-responsive-content-container .main-heading{
+        font-size: 20px;
+        font-weight: 600;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        padding: 8px !important;
+    }
+    .main-responsive-content-container .main-heading:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-heading::after{
+        height: 7px;
+        border-width: 1.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .main-responsive-content-container .main-heading::before{
+        height: 1.5px;
+    }
+    .main-responsive-content-container .main-description{
+        width: 95%;
+        margin-inline: auto;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+    }
+    .main-responsive-content-container .main-description:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-description:hover::before{
+        height: 75px;
+        width: 75px;
+    }
+    .main-responsive-content-container .main-button{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 7px !important;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+    }
+    .main-responsive-content-container .main-button:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time{
+        width: 95%;
+        margin-inline: auto;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+    }
+    .main-responsive-content-container .current-date-time:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time:hover::before{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media((min-width: 440px) and (max-width: 576px)){
+    .main-responsive-content-container{
+        padding: 8px !important;
+        box-shadow: 0px 0px 3px 2px var(--color-light-blue);
+        border-width: 2px !important;
+        width: 85% !important;
+    }
+    .main-responsive-content-container:hover{
+        box-shadow: 0px 0px 3px 2px var(--color-light-yellow);
+        transform: scale(1.04);
+    }
+    .main-responsive-content-container .main-heading{
+        font-size: 22px;
+        font-weight: 600;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        padding: 8px !important;
+    }
+    .main-responsive-content-container .main-heading:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-heading::after{
+        height: 7px;
+        border-width: 1.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .main-responsive-content-container .main-heading::before{
+        height: 1.5px;
+    }
+    .main-responsive-content-container .main-description{
+        font-size: 15px;
+        font-weight: 400;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .main-description:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-description:hover::before{
+        height: 85px;
+        width: 85px;
+    }
+    .main-responsive-content-container .main-button{
+        font-size: 16px;
+        font-weight: 700;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        padding: 7px !important;
+    }
+    .main-responsive-content-container .main-button:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time{
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .current-date-time:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time:hover::before{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media((min-width: 576px) and (max-width: 768px)){
+    .main-responsive-content-container{
+        padding: 12px !important;
+        box-shadow: 0px 0px 4px 3px var(--color-light-blue);
+        border-width: 3px !important;
+        width: 80% !important;
+    }
+    .main-responsive-content-container:hover{
+        box-shadow: 0px 0px 4px 3px var(--color-light-yellow);
+        transform: scale(1.05)
+    }
+    .main-responsive-content-container .main-heading{
+        font-size: 24px;
+        font-weight: 700;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+        padding: 10px !important;
+    }
+    .main-responsive-content-container .main-heading:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-heading::after{
+        height: 9px;
+        border-width: 2px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .main-responsive-content-container .main-heading::before{
+        height: 2px;
+    }
+    .main-responsive-content-container .main-description{
+        font-size: 17px;
+        font-weight: 500;
+        width: 95%;
+        margin-inline: auto;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+    }
+    .main-responsive-content-container .main-description:hover{
+        box-shadow: 0px 0px 2px 2px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-description:hover::before{
+        height: 80px;
+        width: 80px;
+    }
+    .main-responsive-content-container .main-button{
+        font-size: 18px;
+        font-weight: 700;
+        box-shadow: 0px 0px 3px 3px var(--color-darked);
+        padding: 7px !important;
+    }
+    .main-responsive-content-container .main-button:hover{
+        box-shadow: 0px 0px 3px 3px var(--color-light-yellow)
+    }
+    .main-responsive-content-container .current-date-time{
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0px 2px 2px var(--color-darked);
+        width: 95%;
+        margin-inline: auto;
+        text-align: justify
+    }
+    .main-responsive-current-container .current-date-time:hover{
+        box-shadow: 0px 0px var(--color-light-yellow);
+    }
+}
+@media((min-width: 768px) and (max-width: 992px)){
+    .main-responsive-content-container{
+        padding: 12px !important;
+        box-shadow: 0px 0px 5.5px 4px var(--color-light-blue);
+        border-width: 3px !important;
+        width: 70% !important;
+    }
+    .main-responsive-content-container:hover{
+        box-shadow: 0px 0px 5.5px 4px var(--color-light-yellow);
+        transform: scale(1.05);
+    }
+    .main-responsive-content-container .main-heading{
+        font-size: 26px;
+        font-weight: 700;
+        padding: 10px !important;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+    }
+    .main-responsive-content-container .main-heading:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-heading::after{
+        height: 9px;
+        border-width: 2px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .main-responsive-content-container .main-heading::before{
+        height: 2px;
+    }
+    .main-responsive-content-container .main-description{
+        font-size: 19px;
+        font-weight: 500;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .main-description:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time{
+        font-size: 20px;
+        font-weight: 500;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+        text-align: justify;
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .current-date-time:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+}
+@media((min-width: 992px) and (max-width: 1200px)){
+    .main-responsive-content-container{
+        padding: 12px !important;
+        box-shadow: 0px 0px 5.5px 4px var(--color-light-blue);
+        border-width: 4px !important;
+        width: 65% !important;
+    }
+    .main-responsive-content-container:hover{
+        box-shadow: 0px 0px 5.5px 4px var(--color-light-yellow);
+        transform: scale(1.05);
+    }
+    .main-responsive-content-container .main-heading{
+        font-size: 28px;
+        font-weight: 800;
+        padding: 10px !important;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+    }
+    .main-responsive-content-container .main-heading:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .main-heading::after{
+        height: 11px;
+        border-width: 2.5px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+    }
+    .main-responsive-content-container .main-heading::before{
+        height: 2.5px;
+    }
+    .main-responsive-content-container .main-description{
+        font-size: 20px;
+        font-weight: 600;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .main-description:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+    .main-responsive-content-container .current-date-time{
+        font-size: 23px;
+        font-weight: 500;
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-darked);
+        text-align: justify;
+        width: 95%;
+        margin-inline: auto;
+    }
+    .main-responsive-content-container .current-date-time:hover{
+        box-shadow: 0px 0px 3.5px 2.5px var(--color-light-yellow);
+    }
+}
