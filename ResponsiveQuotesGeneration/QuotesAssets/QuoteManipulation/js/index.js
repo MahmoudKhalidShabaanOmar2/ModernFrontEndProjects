@@ -88,6 +88,12 @@ function testingQuoteNumberAndDisplayingRandomQuote(){
     quoteDescription.classList.add("p-1");
     quoteDescription.innerHTML = `the quote desciption is ${arrayOfObjectsOfQuotesContainer[quoteNumber].quoteDescription}`;
     // console.log(quoteDescription);
+    generationBtn.classList.add("mt-4");
 };
 // testingQuoteNumberAndDisplayingRandomQuote();
-generationBtn.addEventListener("click" , testingQuoteNumberAndDisplayingRandomQuote);
+generationBtn.addEventListener("click" , function(){
+    generationBtn.classList.remove("mt-4");
+    generationBtn.classList.add("mt-0");
+    testingQuoteNumberAndDisplayingRandomQuote();
+});
+
