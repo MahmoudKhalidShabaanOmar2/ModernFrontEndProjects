@@ -1,96 +1,93 @@
-var differentQuotesContainer = [
+let arrayOfObjectsOfQuotesContainer = [
     {
-        "authorName" : "john.",
-        "quoteNumber" : "one.",
-        "quoteDescription" : "Believe in yourself.",
+        "authorName" : "john." , 
+        "quoteNumber" : "one." ,
+        "quoteDescription" : "believe in yourself.",
     },
     {
-        "authorName" : "david.",
-        "quoteNumber" : "two.",
-        "quoteDescription" : "Success is not final, failure is not fatal.",
+        "authorName" : "david." , 
+        "quoteNumber" : "two." , 
+        "quoteDescription" : "success is not final , and failure is not fatal.",
     },
     {
         "authorName" : "mark.",
-        "quoteNumber" : "three.",
-        "quoteDescription" : "Do one thing every day that scares you.",
+        "quoteNumber": "three.",
+        "quoteDesciption" : "do one thing every day that scares you." ,
     },
     {
-        "authorName" : "marcos",
+        "authorName" : "marcos." , 
         "quoteNumber" : "four.",
-        "quoteDescription" : "Stay hungry, stay foolish.",
+        "quoteDescription" : "stay hungery , and stay foolish.",
     },
     {
-        "authorName" : "john.",
-        "quoteNumber" : "five.",
-        "quoteDescription" : "Your limitation—it’s only your imagination.",
+        "authorName" : "john." ,
+        "quoteNumber" : "five." , 
+        "quoteDescription" : "your limitation-it's only your imagination." ,
     },
     {
-        "authorName" : "joe",
-        "quoteNumber" : "six.",
-        "quoteDescription" : "Push yourself, because no one else is going to do it for you.",
+        "authorName" : "joe." , 
+        "quoteNumber" : "six." , 
+        "quoteDescription" : "push yourself, because no one else is going to do it for you.",
     },
     {
-        "authorName" : "jonson",
-        "quoteNumber" : "seven",
-        "quoteDescription" : "Dream it. Wish it. Do it.",
+        "authorName" : "jonson." ,
+        "quoteNumber" : "seven." ,
+        "quoteDescription" : "dream it , wish it , do it."
     },
     {
-        "authorName" : "david.",
-        "quoteNumber" : "eight.",
-        "quoteDescription" : "Sometimes later becomes never. Do it now.",
+        "authorName" : "david." ,
+        "quoteNumber" : "eight." ,
+        "quoteDescription" : "sometimes later becomes never , do it now.",
     },
     {
-        "authorName" : "alex.",
-        "quoteNumber" : "nine.",
-        "quoteDescription" : "Great things never come from comfort zones.",
+        "authorName" : "alex." ,
+        "quoteNumber" : "nine." ,
+        "quoteDescription" : "Great things never come from comfort zones."
     },
     {
-        "authorName" : "smith.",
-        "quoteNumber" : "ten",
+        "authorName" : "smith." , 
+        "quoteNumber" : "ten." , 
         "quoteDescription" : "Don’t stop when you’re tired. Stop when you’re done.",
-    },
+    }
 ];
-// console.log(differentQuotesContainer);
-// console.log(differentQuotesContainer[0]);
-// console.log(differentQuotesContainer[0].authorName);
-// console.log(differentQuotesContainer[0].quoteNumber);
-// console.log(differentQuotesContainer[0].quoteDescription);
-// console.log(differentQuotesContainer.length);
-var quoteCont = document.getElementById("quoteContainer");
+// console.log(arrayOfObjectsOfQuotesContainer);
+let quoteCont = document.getElementById("quoteContainer");
 // console.log(quoteCont);
-var generationBtn = document.getElementById("generationButton");
+let generationBtn = document.getElementById("generationButton");
 // console.log(generationBtn);
-// generationBtn.addEventListener("click" , function(){
-//     quoteCont.style.display="block";
-// });
-var oldNumber;
+let oldNumber;
 // console.log(oldNumber);
-function testingQuoteNumberAndGenerattingNewRandomQuote(){
-    var quoteNumber = Math.floor(Math.random() * differentQuotesContainer.length);
+function testingQuoteNumberAndDisplayingRandomQuote(){
+    let quoteNumber = Math.floor(Math.random() * arrayOfObjectsOfQuotesContainer.length);
     // console.log(quoteNumber);
     while(quoteNumber == oldNumber){
-        var quoteNumber = Math.floor(Math.random() * differentQuotesContainer.length);
-    };
+        quoteNumber = Math.floor(Math.random() * arrayOfObjectsOfQuotesContainer.length)
+    }
     oldNumber = quoteNumber;
     // console.log(quoteNumber);
-    var authName = document.getElementById("authorName");
-    authName.style.padding="5px";
-    // console.log(authName);
-    authName.innerHTML = `the author name of the quote is : \"${differentQuotesContainer[quoteNumber].authorName}`+"\"";
-    // console.log(authName);
-    var quoteNum = document.getElementById("quoteNumber");
-    quoteNum.style.padding="5px";
+    let quoteCont = document.getElementById("quoteContainer");
+    // console.log(quoteCont);
+    quoteCont.style.display = "block";
+    quoteCont.classList.add("my-4");
+    generationBtn.classList.add("mt-3")
+    let authorName = document.getElementById("authorName");
+    // console.log(authorName);
+    // authorName.style.padding = "5px";
+    authorName.classList.add("p-1");
+    authorName.innerHTML = `the author name is ${arrayOfObjectsOfQuotesContainer[quoteNumber].authorName}`;
+    // console.log(authorName);
+    let quoteNum = document.getElementById("quoteNumber");
     // console.log(quoteNum);
-    quoteNum.innerHTML = `the number of the quote is \"${differentQuotesContainer[quoteNumber].quoteNumber}`+"\"";
+    // quoteNum.style.padding = "5px";
+    quoteNum.classList.add("p-1");
+    quoteNum.innerHTML = `the quote number is ${arrayOfObjectsOfQuotesContainer[quoteNumber].quoteNumber}`;
     // console.log(quoteNum);
-    var quoteDesc = document.getElementById("quoteDescription");
-    quoteDesc.style.padding="5px";
-    // console.log(quoteDesc);
-    quoteDesc.innerHTML = `the description of the quote is : \"${differentQuotesContainer[quoteNumber].quoteDescription}`+"\"";
-    // console.log(quoteDesc);
+    let quoteDescription = document.getElementById("quoteDescription");
+    // console.log(quoteDescription);
+    // quoteDescription.style.padding = "5px";
+    quoteDescription.classList.add("p-1");
+    quoteDescription.innerHTML = `the quote desciption is ${arrayOfObjectsOfQuotesContainer[quoteNumber].quoteDescription}`;
+    // console.log(quoteDescription);
 };
-// testingQuoteNumberAndGenerattingNewRandomQuote();
-generationBtn.addEventListener("click" , function(){
-    quoteCont.style.display="block";
-    testingQuoteNumberAndGenerattingNewRandomQuote();
-})
+// testingQuoteNumberAndDisplayingRandomQuote();
+generationBtn.addEventListener("click" , testingQuoteNumberAndDisplayingRandomQuote);
