@@ -91,10 +91,7 @@ function testingQuoteNumberAndDisplayingRandomQuote(){
     generationBtn.classList.add("mt-5");
 };
 // testingQuoteNumberAndDisplayingRandomQuote();
-generationBtn.addEventListener("click" , function(){
-    generationBtn.classList.remove("mt-5");
-    generationBtn.classList.add("mt-0");
-    testingQuoteNumberAndDisplayingRandomQuote();
-});
+generationBtn.addEventListener("click" , testingQuoteNumberAndDisplayingRandomQuote);
+
 
 
