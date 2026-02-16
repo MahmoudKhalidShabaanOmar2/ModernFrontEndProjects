@@ -12,3 +12,5 @@ This is the main repository for all of the projects in the course.
 | 05 | [ResponsiveSimpleImagesSliders](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveSimpleImagesSliders) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects//ResponsiveSimpleImagesSliders/) |
 | 06 | [ResponsiveAdvancedSliderImages](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveAdvancedSliderImages) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects//ResponsiveAdvancedSliderImages/) |
 | 07 | [ResponsiveCurrentDateTime](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveCurrentDateTime) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveCurrentDateTime/) |
+| 08 | [ResponsiveAdvancedQuotesGeneration](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveAdvancedQuotesGeneration) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveAdvancedQuotesGeneration/) |
+
