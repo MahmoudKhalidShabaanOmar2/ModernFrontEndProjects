@@ -13,5 +13,4 @@ This is the main repository for all of the projects in the course.
 | 06 | [ResponsiveAdvancedSliderImages](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveAdvancedSliderImages) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects//ResponsiveAdvancedSliderImages/) |
 | 07 | [ResponsiveCurrentDateTime](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveCurrentDateTime) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveCurrentDateTime/) |
 | 08 | [ResponsiveAdvancedQuotesGeneration](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveAdvancedQuotesGeneration) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveAdvancedQuotesGeneration/) |
-| 09 | [ResponsiveError404Page](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveError404Page
-) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveError404Page/) |
+| 09 | [ResponsiveError404Page](https://github.com/MahmoudKhalidShabaanOmar2/ModernFrontEndProjects/tree/main/ResponsiveError404Page) | [Live Demo](https://mahmoudkhalidshabaanomar2.github.io/ModernFrontEndProjects/ResponsiveError404Page/) |
